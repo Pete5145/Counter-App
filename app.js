@@ -38,4 +38,9 @@ function updateCount(e) {
     countNumber.innerText = counter;
     localStorage.setItem("count", counter);
   }
+  if (counter < 0) {
+    countNumber.style.color = "red";
+  } else {
+    countNumber.style.color = "rgb(2, 2, 27)";
+  }
 }
