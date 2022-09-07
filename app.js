@@ -1,5 +1,4 @@
 // Select all elements of interest.
-
 const countNumber = document.querySelector("#count");
 const decreaseBtn = document.querySelector("#decrease");
 const resetBtn = document.querySelector("#reset");
@@ -9,8 +8,7 @@ const increaseBtn = document.querySelector("#increase");
 let counter,
   count = 0;
 
-// functionality
-
+// Functionality
 decreaseBtn.addEventListener("click", updateCount);
 increaseBtn.addEventListener("click", updateCount);
 resetBtn.addEventListener("click", updateCount);
